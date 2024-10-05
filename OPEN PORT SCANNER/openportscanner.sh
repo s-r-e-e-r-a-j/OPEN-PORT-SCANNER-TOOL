@@ -24,7 +24,7 @@ count=1
 
 
 
-for port in {1..1000}
+for port in {1..6000}
 do
 
 timeout 1  bash -c "echo > /dev/tcp/$ipaddress/$port" &> /dev/null
